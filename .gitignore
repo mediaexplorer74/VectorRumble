@@ -252,5 +252,3 @@ paket-files/
 *.sln.iml
 
 **/.DS_Store
-
-**/appversion.txt

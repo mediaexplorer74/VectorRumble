@@ -1,62 +1,56 @@
-﻿# VectorRumble
-MonoGame port of the XNA VectorRumble Sample, but enhanced to be a more complete publishable game sample.
+# VectorRumble
+![Logo](Images/logo.png)
 
-## Enhancement over standard XNA Sample
-* Extensibility
-   * Custom ship loading
-   * Custom level loading
-* Custom font to suit Look & Feel
-* Multi-language support
-   * English
-   * German
-   * Spanish
-   * French
-
-## Build Status
-[![.NET](https://github.com/infinitespace-studios/VectorRumble/actions/workflows/build.yml/badge.svg)](https://github.com/infinitespace-studios/VectorRumble/actions/workflows/build.yml)
-
-## Released Platforms
-* Desktop PCs
-   * [Itch.IO](https://infinitespace-studios.itch.io/vector-rumble) (Linux, MacOS and Windows binaries)
-
-## Contributions Opportunities
-
-We have quite a few issues that are ripe for community contributions. This project accepts PRs :)
-
-* A community written cross-platform [vector point editor](https://github.com/infinitespace-studios/VectorRumble/issues/15)
-   * Maybe using Avalonia, built into the game itself or webbased?
-   * Supports Level loading and editing
-   * Support Ship loading and editing
-* Extensible [weapons system](https://github.com/infinitespace-studios/VectorRumble/issues/16)
-* Custom level, ship and weapon [repository]() (we'll try to host the best ones on this repo)
-* There are several issues open to support more languages, take a look at the list and see if you can help translate
-* [Network multi-player](https://github.com/infinitespace-studios/VectorRumble/issues/18)
-* [AI Player](https://github.com/infinitespace-studios/VectorRumble/issues/17)
-
-If you think you have found a bug or have a feature request, use our [issue tracker](https://github.com/infinitespace-studios/VectorRumble/issues). 
-Before opening a new issue, please search to see if your problem has already been reported.  Try to be as detailed as possible in your issue reports.
+My fork of MonoGame "UWP-port" of the XNA VectorRumble Sample for my own micro-research (screens tech, multi-player mode, etc.)
 
 
-### Subscription
+## About
+"A fast paced 4 player (2 game-pads + 2 keyboard), 2 dimensional, top-down shooter.
+Battle your friends to the death in several arenas, full of asteroids and power ups. 
 
-If you'd like to help the MonoGame project by supporting us financially, consider supporting us via a subscription for the price of a monthly coffee.
+This is an enhanced version of an old XNA sample, ported to the MonoGame framework, due to it’s cross-platform support.Enhancements:
 
-Money goes towards hosting, new hardware and if enough people subscribe a dedicated developer.
+You can now create your own custom arenas and ship designs (for now by hand).
+More enhancements coming in future releases, including an arena and ship editor."
 
-There are several options on the MonoGame [Donation Page](http://www.monogame.net/donate/).
+## Screenshot(s)
+![W11Lite](Images/sshot01.png)
+![W11Lite](Images/sshot02.png)
+![W11Lite](Images/sshot03.png)
+![W11Lite](Images/sshot04.png)
+
+## Tech details
+- My remake made:        May 31, 2025
+- Original updated:	 May 24, 2025
+- Original Published:	 Oct 18, 2017
+- Status:	         In development
+- Platforms:	         Windows 10/11 Desktop, Windows 10 Mobile, and XBox ;)
+- Author of original:	 infinitespace-studio
+- Janre:	         Action
+- Builded with:	         MonoGame
+- Labels: Retro, Action
+- Game session:	A few minutes
+- Language(s):	English
+- Game control:	Keyboard, Gamepad, XBox controller (?) 
+- UWP app : Min Win. SDK is 10240, Main Win. SDK is 14393  
 
 
-## Source Code
+## Controls
+![Logo](Images/controls.png)
 
-The full VectorRumble source code is available here from GitHub:
-* Clone the source: `git clone https://github.com/infinitespace-studios/VectorRumble.git`
+## ToDo
+- Fix game screen-scaling on any W10M-based flagman (Lumia 950 / 950XL) or hi-def UWMP
+- Improve touch control, add new swipes (main menu, gameplay)
+- Fix game storage (score?)
+- Made single-player mode (AI enemy needed)))
 
-## Helpful Links
+## .
+As is. No support. DIY. Learn purposes only.
 
- * The official MonoGame website is [monogame.net](http://www.monogame.net).
- * The VectorRumble [issue tracker](https://github.com/infinitespace-studios/VectorRumble/issues) is on GitHub.
- * Follow [@InfSpaceStudios](https://twitter.com/InfSpaceStudios) on Twitter.
+## Reference(s)
+- https://infinitespace-studios.itch.io/vector-rumble Original project (windows, ios, etc.)
+- https://github.com/infinitespace-studios/VectorRumble Src code of Original project (uwp port, desktop case, etc.)
+- https://github.com/infinitespace-studios Author of VectorRumble "uwp port" :)
 
-## License
-
-The Vector Rumble project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) except for a few portions of the code.  See the [LICENSE.txt](LICENSE.txt) file for more details.  Third-party libraries used by MonoGame are under their own licenses.  Please refer to those libraries for details on the license they use.
+## ..
+[m][e] *May, 31 2025*
